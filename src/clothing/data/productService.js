@@ -93,5 +93,5 @@ export const products = [
 ]
 
 export function getProductDetailsById(productId) {
-    return products.find(product => product.id === productId)
+    return products.find(product => product.id === productId);
 }

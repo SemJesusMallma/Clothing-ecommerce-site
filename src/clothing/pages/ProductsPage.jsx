@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import useCartItems from '../hooks/useCartItems';
 
 export const ProductsPage = () => {
-    const { getTotalItems } = useCartItems()
+    const { getTotalItems } = useCartItems();
 
     return (
         <main className="container shadow">

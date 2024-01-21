@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import useCartItems from '../hooks/useCartItems';
 
 export const HomePage = () => {
-    const { getTotalItems } = useCartItems()
+    const { getTotalItems } = useCartItems();
 
     const scrollToTop = () => {
         window.scrollTo({

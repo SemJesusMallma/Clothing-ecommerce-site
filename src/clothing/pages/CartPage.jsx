@@ -2,7 +2,7 @@ import React from 'react';
 import useCartItems from '../hooks/useCartItems';
 
 export const CartPage = () => {
-  const { cartItems, setCartItems, removeFromCart } = useCartItems()
+  const { cartItems, setCartItems, removeFromCart } = useCartItems();
 
   const handleIncreaseQuantity = (itemId) => {
     const updatedCart = cartItems.map((item) =>
