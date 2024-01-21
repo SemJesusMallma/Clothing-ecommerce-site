@@ -19,7 +19,7 @@ export const ClothingRoutes = () => {
             <Route path="contacto" element={<Contac />} />
             <Route path="carrito" element={<CartPage />} />
             <Route path="detalles/:id" element={<DetailsProductPage/>} />
-            <Route path="/*" element={<Navigate to={"/home"} />} />
+            <Route path="/*" element={<Navigate to="/home" />} />
         </Routes>
         <Footer />
         </>
