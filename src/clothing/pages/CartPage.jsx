@@ -46,7 +46,7 @@ export const CartPage = () => {
                     <button className='quantity__edit' onClick={() => handleDecreaseQuantity(item.id)}>-</button>
                   </div>
                   <img
-                    src={'/img/trash.svg'}
+                    src={'img/trash.svg'}
                     alt="Eliminar"
                     onClick={() => handleRemoveFromCart(item.id)}
                     className="icon__eliminar"

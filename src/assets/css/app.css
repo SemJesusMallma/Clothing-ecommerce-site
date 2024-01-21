@@ -381,7 +381,7 @@ template {
 }
 
 .hero {
-  background-image: url(../img/hero2.avif);
+  background-image: url(/img/hero2.avif);
   background-repeat: no-repeat;
   background-size: cover;
   height: 60rem;
@@ -450,7 +450,7 @@ template {
 }
 
 .hero__contacto {
-  background-image: url(../img/hero3.jpg);
+  background-image: url(/img/hero3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 60rem;
@@ -641,7 +641,7 @@ template {
 
 .tshirt--graph {
   position: relative;
-  background-image: url(../img/grafico.avif);
+  background-image: url(/img/grafico.jpg);
 }
 @media (min-width: 480px) {
   .tshirt--graph {
@@ -715,7 +715,7 @@ template {
 }
 
 .polos--graph {
-  background-image: url(../img/grafico3.jpeg);
+  background-image: url(/img/grafico3.jpeg);
 }
 @media (min-width: 480px) {
   .polos--graph {

@@ -183,7 +183,7 @@ export const ProductsPage = () => {
                 
                 <Link to="/carrito">
                     <div className="carrito-icon">
-                        <img src="/img/shopping-cart.svg" alt="Carrito" />
+                        <img src="img/shopping-cart.svg" alt="Carrito" />
                         <div className="carrito-indicador">{getTotalItems()}</div>
                     </div>
                 </Link>

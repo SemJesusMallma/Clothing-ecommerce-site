@@ -7,7 +7,7 @@ import './assets/css/app.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/ecomerce-site'>
     <CartProvider>
       <ClothingApp />
     </CartProvider>
